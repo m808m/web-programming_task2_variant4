@@ -1,0 +1,324 @@
+body{
+    margin:0;
+}
+
+.welcome{
+    display: flex;
+}
+
+.welcome__img{
+    max-width: 55%;
+}
+
+.welcome__nav{
+    margin: 6.8% 13.31% 15.8% 40.5%;
+    
+    display: flex;
+}
+
+
+.welcome__nav img:first-child{
+    margin-right: 12.7%;
+}
+
+
+.welcome__nav img:not(:first-child){
+    margin-right: 2.8%;
+}
+
+
+.white_but{
+    text-decoration: none;
+    color:#156963;
+    padding: 2.75% 7%;
+    font-weight: 700;
+    font-size: 90%;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid #ffffff;
+
+}
+
+.green_but{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #156963;
+    padding: 2.75% 7%;
+    font-weight: 700;
+    font-size: 90%;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid #156963;
+}
+
+.green_but:hover{
+    background-color:#ffffff;
+    color: #156963;
+    border: 1px solid #156963;
+}
+
+.white_but:hover{
+    color: #15696383;
+}
+
+
+.welcome__left__h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 425%;
+    color: #156963;
+    margin: 0 0 3.3% 0;
+}
+
+.welcome__left__p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 112.5%;
+    color: #2C1500;
+    padding-right: 8%;
+}
+
+.welcome__text{
+    margin: 0% 11.4%;
+}
+
+.info__items{
+    margin: 11.1% 4.5% 6.3% 4.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__item{
+    border: 1px solid #E0E0E0;
+    width: 23%;
+}
+
+.info__item__head{
+    display: flex;
+    align-items: center;
+}
+
+.info__item__head h3{
+    margin: 8% 20% 6% 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    color: #156963;
+}
+
+.info__item__head img{
+    margin-left: 6%;
+}
+
+
+.info__item p{
+    margin: 0 15% 5% 6%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: hsl(29, 100%, 9%);
+}
+
+
+.products{
+    margin: 0 4.5% 6.3% 4.5%;
+}
+
+
+.products h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 1.3%;
+    margin: 0 0 2.6% 0;
+}
+
+.products__items{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products__item img{
+    width: 100%;
+}
+
+.products__item h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+
+    margin-top: 7%;
+    margin-bottom: 3.6%;
+}
+
+.products__item p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 4% 0;
+}
+
+.add{
+    margin: 0 4.5% 6.25% 4.5%;
+    display:flex;
+    
+}
+
+.add__left{
+    margin-right: 7.21%;
+}
+
+.add__left__text{
+    margin: 1.5% 17% 21% 3.3%;
+}
+
+.add__left__text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #2C1500;
+    margin: 0 0 3% 0;
+}
+
+.add__left__text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2C1500;
+    opacity: 0.8;
+    margin:0;
+}
+
+.add__right__img{
+    width: 50%;
+}
+
+.add__left__img{
+    width: 100%;
+}
+
+.visit{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4.5% 6.25% 4.5%;
+    background-color: #F3F4F6;
+}
+
+.visit__text{
+    margin: 7.7% 0.8% 7.7% 8.4%;
+}
+
+
+.visit__text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #2C1500;
+    margin: 0 0 8% 0;
+}
+
+.visit__text a{
+    padding: 10px 42px 10px 42px;
+}
+
+.footer{
+    display: flex;
+    border-top: 1px solid #1569633f;
+    margin: 0 4.5% 5.5% 4.5%;
+    padding-top: 4.5%;
+}
+
+.footer div:not(:last-child){
+    margin-right: 6.9%;
+}
+
+.footer div:first-child{
+    margin-left: 9.6%;
+}
+
+.footer__logo h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #156963;
+    margin: 0 0 10% 0;
+}
+
+.footer__logo h4{
+    margin: 0 0 4% 0;
+}
+
+.footer__logo p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #4F4F4F;
+    margin: 0;
+}
+
+.footer h4{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer__info h4{
+    margin: 0 0 18% 0;
+}
+
+.footer__info a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer__info a:hover{
+    color: #0000007b;
+}
+
+
+.footer__info a{
+    margin-bottom: 12.3%;
+}
+
+.footer__email h4{
+    margin: 0 0 6% 0;
+}
+
+.footer__email input{
+    display: block;
+    background-color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #00000076;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    margin-bottom: 6%;
+    padding: 3% 5%;
+}
+
+
+
+.footer__email a{
+    border-radius: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    backdrop-filter: blur(5px);
+    
+    text-align: center;
+}
