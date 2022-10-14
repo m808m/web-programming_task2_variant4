@@ -36,6 +36,7 @@ body{
     font-family: 'Nunito', sans-serif;
     border: 1px solid #ffffff;
 
+    white-space: nowrap;
 }
 
 .green_but{
@@ -47,6 +48,8 @@ body{
     font-size: 90%;
     font-family: 'Nunito', sans-serif;
     border: 1px solid #156963;
+
+    white-space: nowrap;
 }
 
 .green_but:hover{
@@ -143,7 +146,9 @@ body{
 
 .products__item img{
     width: 100%;
+    height: auto;
 }
+
 
 .products__item h3{
     font-family: 'Montserrat', sans-serif;
@@ -312,13 +317,71 @@ body{
 }
 
 
-
 .footer__email a{
     border-radius: 2px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 8px;
     backdrop-filter: blur(5px);
-    
     text-align: center;
+}
+
+
+@media only screen and (max-width: 1220px){
+    .products__item{
+        width: 18%;
+    }
+}
+
+
+@media only screen and (max-width: 1035px){
+    .nav__but{
+        font-size: 85%;
+    }
+
+    .welcome__img{
+        max-width: 50%;
+    }
+
+    .footer div:first-child{
+        margin-left: 6%;
+    }
+
+    .footer__email input[type="email"] {
+        width: 90%;
+    }
+
+    .welcome__left__h1{
+        font-size: 400%;
+    }
+}
+
+
+@media only screen and (max-width: 995px){
+    .footer div:first-child{
+        margin-left: 3%;
+    }
+    .welcome__left__h1{
+        font-size: 350%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .welcome__nav{
+        margin-left: 25%;
+        margin-right: 8%;
+    }
+    .welcome__img{
+        max-width: 48%;
+    }
+}
+
+@media only screen and (max-width: 768px ){
+    .products__item{
+        width: 30%;
+    }
+
+}
+
+@media only screen and (max-width: 480px ){
 }
