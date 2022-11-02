@@ -123,7 +123,7 @@ body{
 
 
 .products{
-    margin: 0 4.5% 6.3% 4.5%;
+    margin: 0 4.5% 0% 4.5%;
 }
 
 
@@ -138,10 +138,14 @@ body{
     margin: 0 0 2.6% 0;
 }
 
-.products__items{
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
+.products__item{
+    float: left;
+    width: 18.5%;
+}
+
+.products__items div:not(:last-child){
+    margin-right: 1.8%;
 }
 
 .products__item img{
@@ -156,7 +160,6 @@ body{
     font-size: 16px;
     text-align: center;
     color: #000000;
-
     margin-top: 7%;
     margin-bottom: 3.6%;
 }
@@ -171,6 +174,8 @@ body{
 }
 
 .add{
+    clear: both;
+    padding-top: 6%;
     margin: 0 4.5% 6.25% 4.5%;
     display:flex;
     
@@ -376,11 +381,43 @@ body{
     }
 }
 
-@media only screen and (max-width: 768px ){
+@media only screen and (max-width: 800px ){
+    .welcome__left__p{
+        font-size: 100%;;
+        padding-right: 5%;
+    }
+
+    .welcome__left__h1{
+        font-size: 300%;
+    }
+
     .products__item{
         width: 30%;
     }
 
+    .products__items div:not(:last-child){
+        margin-right: 3.3%;
+    }
+
+    .add__left__text h2{
+        font-size: 30px;
+    }
+
+    .add__left__text p{
+        font-size: 12px;
+    }
+
+    .visit__text h2{
+        font-size: 30px;
+    }
+
+    .footer__info a{
+        font-size: 12px;
+    }
+
+    .footer h4{
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 480px ){
